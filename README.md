@@ -8,7 +8,8 @@ Camp Snap Pro, aka CS Pro. Fun.
   - 1920x1080 max resolution. appears to be direct 1:1 pixels from the center of the sensor instead of downscaling the whole sensor image
 - shutter lag (time from pressing shutter button to completing taking a photo) seems to be around 150-320ms (best guess)
 - takes ~4 seconds to power up with 436 photos on microsd card
-- when holding down the button, it takes multiple photos at around 1.2 seconds per photo (probably dependent on light/exposure)
+- when holding down the shutter button, it takes multiple photos at around 1.2 seconds per photo (probably dependent on light/exposure)
+- when powering up while holding the shutter button, it will start taking photos right after it finishes booting
 - custom filter files named `std.flt` `vtg1.flt` `vtg2.flt` `bw.flt`
   - format:
     ```
