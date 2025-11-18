@@ -1,16 +1,29 @@
 # campsnappro-fun
 Camp Snap Pro, aka CS Pro. Fun.
 
-# random notes
-  - 0603:8611 Novatek Microelectronics Corp. NTK96550-based camera (mass storage mode)
-  - webcam mode (UVC) when no microsd is inserted
-    - 0603:8612 Novatek Microelectronics Corp. NTK96550-based camera (webcam mode)
-    - 1920x1080 max resolution. appears to be direct 1:1 pixels from the center of the sensor instead of downscaling the whole sensor image
-  - shutter lag (time from pressing shutter button to completing taking a photo) seems to be around 150-320ms (best guess)
-  - takes ~4 seconds to power up with 436 photos on microsd card
-  - when holding down the button, it takes multiple photos at around 1.2 seconds per photo (probably dependent on light/exposure)
+## random notes
+- 0603:8611 Novatek Microelectronics Corp. NTK96550-based camera (mass storage mode)
+- webcam mode (UVC) when no microsd is inserted
+  - 0603:8612 Novatek Microelectronics Corp. NTK96550-based camera (webcam mode)
+  - 1920x1080 max resolution. appears to be direct 1:1 pixels from the center of the sensor instead of downscaling the whole sensor image
+- shutter lag (time from pressing shutter button to completing taking a photo) seems to be around 150-320ms (best guess)
+- takes ~4 seconds to power up with 436 photos on microsd card
+- when holding down the button, it takes multiple photos at around 1.2 seconds per photo (probably dependent on light/exposure)
+- custom filter files named `std.flt` `vtg1.flt` `vtg2.flt` `bw.flt`
+  - format:
+    ```
+    lum:-22
+    contrast:3
+    rgain:-38
+    ggain:-18
+    bgain:-16
+    hue:8
+    sat:-15
+    ```
+  - the order of the values matter
+  - labels to the left of the colon do not matter
 
-# sample exif data
+## sample exif data
 ```
 Exif.Image.ImageDescription                  Ascii       7  CAMERA
 Exif.Image.Make                              Ascii       9  CampSnap
