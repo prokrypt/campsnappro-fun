@@ -23,6 +23,8 @@ Camp Snap Pro, aka CS Pro. Fun.
     ```
   - the order of the values matter
   - labels to the left of the colon do not matter
+- auto poweroff is at 10 minutes, and camera can only be revived by turning the switch to the OFF position first, plugging in a USB cable, or poking the reset button.
+- reset button does not seem to reset the date/time
 
 ## sample exif data
 ```
