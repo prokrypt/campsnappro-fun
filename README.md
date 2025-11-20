@@ -32,7 +32,7 @@ Camp Snap Pro, aka CS Pro. Fun.
   - that last led will blink (and there will be beeps? i forgot) when battery is extremely low. expect it to turn off shortly after.
 - battery is 1200mAh
 - charges at ~570mA
-- uses an additional ~80mA when turned on and idle while charging
+- uses an additional ~80mA while turned on and idle when charging
 - can turn on and take photos while charging if connected to a power-only source (or using a power-only cable)
 
 ## sample exif data
