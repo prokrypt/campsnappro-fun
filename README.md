@@ -34,6 +34,7 @@ Camp Snap Pro, aka CS Pro. Fun.
 - charges at ~570mA when turned off
   - uses an additional ~80mA while in usb storage mode
   - uses an additional ~240mA while in photo mode
+  - uses 300-310mA while in photo mode after fully charged, drops to ~70mA for a few seconds after turning off
 - can turn on and take photos while charging if connected to a power-only source (or using a power-only cable)
 
 ## sample exif data
