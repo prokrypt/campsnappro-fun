@@ -31,8 +31,9 @@ Camp Snap Pro, aka CS Pro. Fun.
   - the last led (technically the first one) is like a low battery indicator. if it's down to the last dot, don't be surprised if the camera does not turn back on when powered off (4 beeps).
   - that last led will blink (and there will be beeps? i forgot) when battery is extremely low. expect it to turn off shortly after.
 - battery is 1200mAh
-- charges at ~570mA
-- uses an additional ~80mA while turned on and idle when charging
+- charges at ~570mA when turned off
+  - uses an additional ~80mA while in usb storage mode
+  - uses an additional ~240mA while in photo mode
 - can turn on and take photos while charging if connected to a power-only source (or using a power-only cable)
 
 ## sample exif data
