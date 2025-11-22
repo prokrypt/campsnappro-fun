@@ -25,7 +25,7 @@ Camp Snap Pro, aka CS Pro. Fun.
   - labels to the left of the colon do not matter
 - auto poweroff is at 10 minutes
   - camera can only be revived by turning the switch to the OFF position first, plugging in a USB cable, or poking the reset button
-  - changing filter mode and flash will reset timer
+  - changing filter/flash mode will reset timer
 - reset button does not seem to reset the date/time
 - the battery gauge consisting of 4 leds is very non-linear
   - the last led (technically the first one) is like a low battery indicator. if it's down to the last dot, don't be surprised if the camera does not turn back on when powered off (4 beeps).
